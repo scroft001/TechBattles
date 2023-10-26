@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --main-gray: #e2e2e2;
+    --main-black: #171717;
+    --main-good: rgb(69, 109, 252);
+    --main-bad: rgb(255, 255, 255);
+    --accent-dark: rgb(43, 69, 161);
+    --accent-light: rgb(129, 155, 249);
+}
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-gray);
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card{
+    padding: 1rem;
+    border: 3px solid var(--main-black);
+    width: 100%;
+}
+
+#main-image{
+    width: 100%;
+    margin-bottom: 1rem;
+    /* box-shadow: 1px 1px 10px var(--accent-dark); */
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#buy{
+
+}
+
+#yt{
+    height: 30px;
+    width: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    margin-bottom: .4rem;
+    color: var(--accent-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.link img{
+    width: 30px;
+    margin-right: .3rem;
+}
